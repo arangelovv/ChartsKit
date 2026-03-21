@@ -31,7 +31,8 @@
     "data"
   ],
   "author": "","license": "ISC",
-  "type": "commonjs",  "devDependencies": {
+  "type": "commonjs",  
+  "devDependencies": {
     "webpack": "^5.105.4",
     "webpack-cli": "^7.0.2"
   }
