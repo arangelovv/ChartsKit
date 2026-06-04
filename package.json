@@ -1,39 +1,14 @@
 {
   "name": "chartskit",
   "version": "1.0.0",
-  "description": "A lightweight charting library for modern web apps.",
-  "private": false,
-  "main": "dist/chartkit.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
+  "description": "A simple framework agnostic charts library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/arangelovv/ChartsKit.git"
-  },
-  "bugs": {
-    "url": "https://github.com/arangelovv/ChartsKit/issues"
-  },
-  "homepage": "https://github.com/arangelovv/ChartsKit#readme",
-  "keywords": [
-    "charts",
-    "visualization",
-    "canvas",
-    "svg",
-    "data"
-  ],
-  "author": "","license": "ISC",
-  "type": "commonjs",  
-  "devDependencies": {
-    "webpack": "^5.105.4",
-    "webpack-cli": "^7.0.2"
-  }
+  "author": "",
+  "license": "ISC"
 }
